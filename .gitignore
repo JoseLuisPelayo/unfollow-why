@@ -1,0 +1,42 @@
+# Ignorar la carpeta target/ y todo su contenido
+target
+/*.class
+/*.jar
+/*.war
+/*.ear
+
+# Ignorar archivos de configuración del IDE
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+/.classpath
+/.project
+/.settings/
+/.vscode/
+/bin/
+
+# Ignorar archivos de logs y temporales
+/*.log
+/*.tmp
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de dependencias locales (si las hay)
+/dependency-reduced-pom.xml
+
+# Ignorar archivos de configuración de Maven wrapper (opcional)
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+
+# Ignorar archivos de configuración de entornos locales (si los hay)
+/*.env
+/*.properties
+/*.yml
+/*.yaml
+
+# Ignorar archivos de compilación específicos de Maven
+/*.factorypath
+/*.prefs
